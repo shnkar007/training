@@ -1,2 +1,4 @@
-package constants;public enum State {
+package main.java.constants;
+public enum State {
+    TAMILNADU;
 }
