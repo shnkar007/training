@@ -10,6 +10,7 @@ public class ExceptionDemo {
         try {
             int[] intArr = new int[5];
             List<Student> list= new ArrayList<Student> ();
+            System.out.println("adding members");
             list.add(new Student(1,"Sankar","CS","4"));
             list.add(new Student(2,"Bala","Mech","5"));
             for(Student s : list){
